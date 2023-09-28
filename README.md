@@ -1,7 +1,7 @@
 # Sistem
 project Sistem Manajemen Partai
 
-## Sistem LIS
+## Sistem Manajemen Partai
 
 
 ### Installation
