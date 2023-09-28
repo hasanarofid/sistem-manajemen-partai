@@ -17,6 +17,12 @@ $php artisan db:seed
 $php artisan serve
 $php artisan storage:link
 ```
+## spesifik migrate
+```
+$ php artisan migrate:refresh --path=database/migrations/2014_10_12_000000_create_users_table.php
+$ php artisan migrate --path=database/migrations/specific && php artisan db:seed --class=SpecificSeeder
+```
+
 ### Mendapat Update kodingan terbaru
 ```
 $ git fetch origin master

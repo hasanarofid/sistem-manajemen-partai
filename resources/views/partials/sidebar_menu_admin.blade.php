@@ -21,14 +21,14 @@
             </a>
             <ul class="nav nav-treeview">
                <li class="nav-item">
-                  <a href="pages/charts/chartjs.html" class="nav-link">
+                  <a href="{{ route('data-wilayah.tps'); }}" class="nav-link">
                      <i class="fas fa-sitemap"></i>
                      <p>TPS</p>
                   </a>
                </li>
 
                <li class="nav-item">
-                  <a href="pages/charts/chartjs.html" class="nav-link">
+                  <a href="{{ route('data-wilayah.kelurahan-desa') }}" class="nav-link">
                      <i class="fas fa-sitemap"></i>
                      <p>Kelurahan / Desa</p>
                   </a>
